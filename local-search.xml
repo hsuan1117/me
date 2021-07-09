@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>tmux</title>
+    <link href="/2021/07/tmux/"/>
+    <url>/2021/07/tmux/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Tmux"><a href="#Tmux" class="headerlink" title="Tmux"></a>Tmux</h1><p>列出所有視窗</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">tmux ls<br></code></pre></td></tr></table></figure><p>進入某個視窗 (attach target)</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">tmux a -t &lt;id&gt;<br></code></pre></td></tr></table></figure><p>進入上個使用的視窗 (attach)</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">tmux a<br></code></pre></td></tr></table></figure><p>在視窗中，切換到下一個 (next)<br><kbd>Ctrl</kbd> + b , 再按 n</p><p>在視窗中，切換到上一個 (previous)<br><kdb>Ctrl</kdb> + b , 再按 p</p><p>在視窗中，切換到特定 (attach)<br><kdb>Ctrl</kdb> + b , 再按 <id><br>e.g. <kdb>Ctrl</kdb> + b , 再按 3</p><p>在視窗中，新增視窗 (create)<br><kdb>Ctrl</kdb> + b , 再按 c</p><p>在視窗中，離開 (deattach)<br><kdb>Ctrl</kdb> + b , 再按 d</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>CMS教學</title>
+    <link href="/2021/07/CMS%E6%95%99%E5%AD%B8/"/>
+    <url>/2021/07/CMS%E6%95%99%E5%AD%B8/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>台南一中訂餐系統</title>
+    <link href="/2021/06/%E5%8F%B0%E5%8D%97%E4%B8%80%E4%B8%AD%E8%A8%82%E9%A4%90%E7%B3%BB%E7%B5%B1/"/>
+    <url>/2021/06/%E5%8F%B0%E5%8D%97%E4%B8%80%E4%B8%AD%E8%A8%82%E9%A4%90%E7%B3%BB%E7%B5%B1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h1><p>先丟些連結</p><ul><li><a href="https://lunchapi.hsuan.app/">後端</a></li><li><a href="https://lunch.tnfsa.org/">前端</a></li><li><a href="https://docs.tnfsa.org/">文件</a></li><li><a href="https://github.com/tnfsa/tnfsh.github.io/">前端開源Github</a></li></ul><p>&emsp;&emsp;做這個專案大概花了兩個月吧，開始討論是4/19，最後釋出第一版測試版的時候剛剛好是6/19，兩個月的時間，完成了這整個專案，說實在真的不太容易。<br>&emsp;&emsp;在這個專案中我學習到了許多，除了本來擅長的PHP、Laravel外，也協助負責前端開發的同學一起開發。難得的是，他擅長使用的框架是React，而我則是Vue，透過這個專案，我也學會了React的使用方法。<br>&emsp;&emsp;同時也因為遠端共同協作，我增進了git協作的知識。以往，我不喜歡與他人一同開發，因為怕會有許許多多的conflict，git對我而言只是一個版控的工具，完全沒有發揮它協作的優點，但這次的開發，我突破了自己，勇於嘗試新的事物，我與前端開發的同學協作的十分融洽，才發現原來協作不是那麼難，實際上會遇到的conflict也只是區區幾項而已，更改也十分方便。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>資訊</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>資安學習歷程</title>
+    <link href="/2021/06/%E8%B3%87%E5%AE%89%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B/"/>
+    <url>/2021/06/%E8%B3%87%E5%AE%89%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="學習資安-——-始於偶然借到的一本書"><a href="#學習資安-——-始於偶然借到的一本書" class="headerlink" title="學習資安 —— 始於偶然借到的一本書"></a>學習資安 —— 始於偶然借到的一本書</h1><blockquote><p>國中時在學校圖書館借的一本書「<strong>Web 2.0 駭客技術揭密</strong>」是我在資訊領域的<em>啟蒙老師</em><br>書中涵蓋大大小小Web相關的攻擊，闡述相關攻擊發生的原因、並以例子作為佐證</p></blockquote><p>&emsp;&emsp;國中三年級開始，我接觸了資訊安全的領域，從基礎開始，了解每一種漏洞形成的原因。透過不斷地學習，慢慢了解資安漏洞對於企業、社會的危害，並下定決心鑽研資安知識。</p><h1 id="漏洞回報紀錄"><a href="#漏洞回報紀錄" class="headerlink" title="漏洞回報紀錄"></a>漏洞回報紀錄</h1><h2 id="國內知名英語補習班線上評量漏洞"><a href="#國內知名英語補習班線上評量漏洞" class="headerlink" title="國內知名英語補習班線上評量漏洞"></a>國內知名英語補習班線上評量漏洞</h2><p>&emsp;&emsp;在國中時，一個偶然的機會，發現了佳音英語線上評量系統的XSS漏洞，該補習班為國內大間英文補習班，若漏洞遭利用，會影響全台眾多學生，秉持著白帽駭客的精神，我立即撰寫了相關報告，並向Hitcon<br>Zeroday回報了此一漏洞。<br>&emsp;&emsp;很快地，資訊部的工程師與我在Hitcon Zeroday上聯絡，並與我討論修復的方法，我也藉著我所學、我所知的告訴他相關漏洞細節即可能解決方法，漏洞迅速地解決了。<br><img src="/img/%E4%BD%B3%E9%9F%B3%E6%84%9F%E8%AC%9D%E7%8B%80.png" alt="佳音漏洞感謝狀"></p><h2 id="全國中小學Xoops校網外掛漏洞"><a href="#全國中小學Xoops校網外掛漏洞" class="headerlink" title="全國中小學Xoops校網外掛漏洞"></a>全國中小學Xoops校網外掛漏洞</h2><p>&emsp;&emsp;國三的時候，當初是想說為什麼每一個校網都有相似的網址，因而去查詢，從此了解到了開源程式。而也是因為查詢，我去閱讀了許許多多tad老師寫的程式碼以後，發現了當中不乏相關權限、邏輯所造成的漏洞，發現以後，立即通報學校的資訊組，並請其代為跟Tad老師聯絡，修復相關的漏洞。<br><img src="/img/Xoops%E6%BC%8F%E6%B4%9E.png" alt="Xoops漏洞"></p><h2 id="疫情期間相關學習平台漏洞"><a href="#疫情期間相關學習平台漏洞" class="headerlink" title="疫情期間相關學習平台漏洞"></a>疫情期間相關學習平台漏洞</h2><p>&emsp;&emsp;疫情期間，相關的學習平台蓬勃發展，但相關的資安問題似乎沒有管控好。期間，我發現了包括國內出版社、補習班學習平台相關的漏洞，立即通報給Hitcon Zeroday。</p><blockquote><p>礙於相關漏洞尚未公布，無法透漏相關細節<br><img src="/img/%E5%AD%B8%E7%BF%92%E5%B9%B3%E5%8F%B0%E6%BC%8F%E6%B4%9E.png" alt="學習平台漏洞"></p></blockquote><h1 id="資安學術研究"><a href="#資安學術研究" class="headerlink" title="資安學術研究"></a>資安學術研究</h1><p>&emsp;&emsp;在高二的寒假，我與同學一同製作了一關於資安的科展研究，毅然決然地選擇了資安領域，而非現今資訊科顯學 ——<br>人工智慧領域，是因為我們認為：資安相關知識是近年來十分重要的一個區塊，維護好資安，才能讓每個創造出來的程式更加安全，攻擊者沒有可利用的餘地。<br>&emsp;&emsp;我們設計了一套系統，透過將資料分散儲存、加密、等綜合多種方法，確保資料的安全性，並且讓存取速度不會因此降低太多，同時我們也將設計了簡易的API，始得存取該套系統可以跟以往其他儲存方式一樣方便。<br>&emsp;&emsp;在南區科展，我們獲得了佳作的成績，雖然未取得全國賽的資格，但在這個過程中仍學習到了許多新的知識。<br><img src="/img/%E7%A7%91%E5%B1%95%E4%BD%B3%E4%BD%9C.png" alt="科展佳作"><br>&emsp;&emsp;我們後來將該篇研究投稿至ITIA資訊技術研討會，並成功被錄取，並收錄於該研討會論文集中。<br><img src="/img/ITIA.png" alt="ITIA"><br><img src="/img/ITIA%E5%90%88%E7%85%A7.jpg" alt="ITIA合照"></p><h1 id="CTF競賽"><a href="#CTF競賽" class="headerlink" title="CTF競賽"></a>CTF競賽</h1><p>&emsp;&emsp;升上高中以後，透過學長們接觸到了CTF競賽，並且勇於嘗試，參與相關的競賽。</p><h2 id="金盾獎"><a href="#金盾獎" class="headerlink" title="金盾獎"></a>金盾獎</h2><p>&emsp;&emsp;參加金盾獎是全新的體驗，以往是被動發現漏洞，無意間發現的，但在CTF中卻需要主動去探索他，抽絲剝繭地去找出題目中的Flag，這種比賽方式除了考驗本身資安能力以外，更需要參賽者動動腦筋才能將答案解出。<br>&emsp;&emsp;第一次的嘗試，雖然最後沒有取得名次，但是進到決賽了，在過程中也學習到了不少。<br><img src="/img/%E8%B3%87%E7%AD%96%E6%9C%83%E9%87%91%E7%9B%BE%E7%8D%8E.png" alt="金盾獎"></p><h2 id="T貓盃"><a href="#T貓盃" class="headerlink" title="T貓盃"></a>T貓盃</h2><p>&emsp;&emsp;我與隊友一同參與了T貓盃，並獲得特優的成績<br><img src="/img/T%E8%B2%93%E7%9B%83.png" alt="T貓盃"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>資訊</tag>
+      
+      <tag>資安</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
